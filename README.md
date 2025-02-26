@@ -1,5 +1,7 @@
 # Components and props
 
+![Screenshot](image/book-n.png)
+
 ## Components
 
 - **Definition**: Components are the building blocks of a React application. They are self-contained pieces of UI that can be reused throughout your application.
@@ -45,3 +47,38 @@ In this example:
 - **Reusability**: Components promote code reuse, making your application easier to maintain and scale.
 - **Modularity**: By breaking down the UI into smaller components, you can manage and test each part independently.
 - **Data Flow**: Props facilitate a unidirectional data flow from parent to child components, making the data flow predictable and easier to understand.
+
+
+## Challenge
+
+## Visual of the project
+![Screenshot](image/book-n.png)
+
+## The Amazon Best Sellers
+
+In this project, we will cover various interesting React topics, such as:
+- Adding and managing CSS styles.
+- Handling images effectively in React.
+- Understanding and using props to pass data between components.
+
+### Goal
+
+Our goal is to replicate a feature inspired by the Amazon Best Sellers page. We will focus on building a clean and responsive home page that lists top-selling books.
+
+---
+
+## Features
+
+- **Dynamic Book List**: A list of books that displays their title, author, and position in the ranking.
+- **Responsive Design**: The layout is optimized for different screen sizes using CSS grid.
+- **Reusable Components**: Breaking the UI into smaller, reusable components like `Book` and `BookList`.
+
+---
+
+## Technologies Used
+
+- **React**: For building the user interface.
+- **CSS**: For styling the application.
+- **JSX**: To create a structured component-based architecture.
+
+---

@@ -1,20 +1,21 @@
-import React from 'react'
-import Header from './Header';
-import AboutMe from './AboutMe';
-import Projects from './Projects';
+// Importing the React library to use JSX and build React components.
+import React from 'react';
 
-const App = () => {
-  const title = "My Portfolio";
-  const description = "Hello! I'm a developer with a passion for creating innovative web applications.";
-  const projects = ["Project 1", "Project 2", "Project 3"];
+// Importing the BookList component, which will render the list of books.
+import BookList from './components/BookList';
 
+// The main App component, which serves as the root of the application.
+function App() {
     return (
-      <div>
-        <Header title={title}/>
-        <AboutMe description={description}/>
-        <Projects projects={projects}/>
-      </div>
-    )
+        <>
+            {/* Displaying the main heading of the application */}
+            <h1>Amazon best sellers</h1>
+
+            {/* Rendering the BookList component to display the list of books */}
+            <BookList />
+        </>
+    );
 }
 
-export default App
+// Exporting the App component to be used in the application entry point (e.g., index.js).
+export default App;
